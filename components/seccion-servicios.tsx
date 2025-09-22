@@ -33,7 +33,7 @@ const servicios = {
   },
   electricidad: {
     icon: Zap,
-    title: "Electricidad y Otros",
+    title: "Electricidad",
     color: "text-yellow-600",
     services: [
       "Electricidad de obra",
