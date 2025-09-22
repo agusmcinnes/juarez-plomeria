@@ -25,7 +25,7 @@ export function HeroPrincipal() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-secondary/5 px-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-secondary/5 md:px-20">
       {/* Patrón técnico de fondo */}
       <div className="absolute inset-0 opacity-5">
         <div
@@ -36,7 +36,7 @@ export function HeroPrincipal() {
         />
       </div>
 
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-4 py-20 md:py-10 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Contenido principal */}
           <div className={`space-y-8 ${isVisible ? "animate-fade-in" : "opacity-0"}`}>
