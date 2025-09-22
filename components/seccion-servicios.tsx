@@ -108,22 +108,7 @@ export function SeccionServicios() {
                         ))}
                       </div>
 
-                      <div className="mt-8 p-6 bg-primary/5 rounded-xl border border-primary/20">
-                        <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-                          <div className="flex items-center space-x-2">
-                            <ShieldCheck className="w-4 h-4 text-green-600" />
-                            <span>Garantía por escrito</span>
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <Clock className="w-4 h-4 text-blue-600" />
-                            <span>Respuesta rápida</span>
-                          </div>
-                          <div className="flex items-center space-x-2">
-                            <Wrench className="w-4 h-4 text-orange-600" />
-                            <span>Herramientas profesionales</span>
-                          </div>
-                        </div>
-                      </div>
+                  
                     </CardContent>
                   </Card>
                 </TabsContent>
